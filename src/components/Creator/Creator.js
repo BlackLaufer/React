@@ -51,7 +51,7 @@ class Creator extends React.Component {
           value={this.state.value}
           onChange={event => this.handleChange(event)}
         />
-        <div className={styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown : '')}>
+        <div className={styles.buttons + (this.state.visibleButtons ? ` ` + styles.buttonsShown : ``)}>
           <Button onClick={() => this.handleOK()}>OK</Button>
           <Button onClick={() => this.handleCancel()} variant='danger'>cancel</Button>
         </div>
