@@ -7,9 +7,9 @@ import List from '../List/ListContainer.js';
 
 class App extends React.Component {
   static propTypes = {
-    title: PropTypes.node.isRequired,
-    subtitle: PropTypes.node.isRequired,
-    lists: PropTypes.array.isRequired,
+    title: PropTypes.node,
+    subtitle: PropTypes.node,
+    lists: PropTypes.array,
   };
   render() {
 
